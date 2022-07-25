@@ -1,4 +1,3 @@
-from turtle import position
 from rest_framework import serializers
 
 from status.models import Status, StatusType, StatusWorkflow
