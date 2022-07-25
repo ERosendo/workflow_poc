@@ -1,2 +1,1 @@
-web: gunicorn engine.engine.wsgi:application --log-file - --log-level debug
-python manage.py collectstatic --noinput
+web: gunicorn --chdir engine engine.wsgi:application --log-file - --log-level debug
