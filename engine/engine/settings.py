@@ -16,7 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEBUG = False
-CORS_ORIGIN_ALLOW_ALL = DEBUG
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
